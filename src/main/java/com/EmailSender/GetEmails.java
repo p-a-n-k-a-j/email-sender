@@ -41,7 +41,7 @@ public class GetEmails {
 		Message mess = new MimeMessage(session);
 		mess.addRecipient(Message.RecipientType.TO, new InternetAddress(toEmail));
 		mess.setFrom(new InternetAddress(fromEmail));
-		mess.setSubject("Hello Every one I am "+name+"\n\n"+ subject);
+		mess.setSubject(subject);
 		mess.setText(message);
 		
 		//last step is transport and send

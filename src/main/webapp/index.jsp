@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
 <meta charset="UTF-8">
@@ -38,38 +38,3 @@
 
 
 
-
-<%-- <div  class="card text-bg-info border-light mx-auto mb-3 my-5" style="max-width: 540px;">
- <div class="row g-6">
-    <div class="col-md-4 ">
-<img src="<%=application.getContextPath() %>/images/img2.jpg" class="img-fluid rounded-start h-100" alt="this is my image" />
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<h2 class="card-title text-center text-primary-emphasis p3">Send Multiple Email...</h2>
-<div class="card-text">
-<label class="form-label">Enter user name:</label>
-<input type="text" class="form-control" name="username" >
-<br>
-<label class="form-label">Enter Subject or Objective:</label>
-<input type="text" class="form-control" name="subject" >
-<br>
-<label class="form-label">Enter users Email:</label>
-<textarea class="form-control email_address" rows="10" name="emails" placeholder="Enter email address"></textarea>
-<!-- <input type="email" class="form-control" name="email"> -->
-<br>
-<!--  textFieldContainer for generation text fields -->
-<div id="textFieldContainer" >
-</div>
-
-<div class="text-body-secondary">
-<button  class="btn btn-primary p3 mb-2 " type="submit">Go For Massage</button>
-<input class="btn btn-primary  p3 mb-2 mx-5 "  type="reset" value="Reset">
-<!-- <input class="btn btn-success p3 mb-2" id="textValueGet" type="button" value="Get text value">
-<button type="button" onclick="addText()"  class="btn btn-primary p3 mb-2"> Add </button> -->
-
-</div></div>
-</div>
-</div>
-</div>
-</div> --%>
